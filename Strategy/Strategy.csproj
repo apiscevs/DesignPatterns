@@ -7,4 +7,21 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Behaviors\" />
+    <None Remove="Behaviors\Interfaces\" />
+    <None Remove="Behaviors\Fly\" />
+    <None Remove="Behaviors\Quack\" />
+    <None Remove="Ducks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Behaviors\Interfaces\" />
+    <Folder Include="Behaviors\Fly\" />
+    <Folder Include="Behaviors\Quack\" />
+    <Folder Include="Ducks\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
 </Project>
